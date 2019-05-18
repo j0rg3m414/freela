@@ -1,0 +1,19 @@
+Falta para o site M&C Engenharia:
+- logos dos clientes que tem no slide (pdf)
+- Link de menu "Nossa Historia" que tá no escopo 2, só tem o link de menu, mas não tem o conteúdo para formra a área no site, por isso não foi colocado.
+
+
+PRÉ-TRATAMENTO SITE M&C Engenharia:
+
+FEITO:
+- Area de atuação Imagem mais estreita e mais para direita
+- Logo grande passar por trás do menu ao descer
+- Tirar o controle do slide
+- Menu fontes em negrito
+- Logo do menu descentralizada, ajustar
+- Menu semi-transparente
+- Menu um pouco mais curto
+- Quem somos dividir o texto em duas linhas centralizadas
+- Area de atuação texto mais para direita
+- Inovação, igual com quem somos:
+- Tecnologia e Transparencia, eles fabricam o próprio concreto, grande diferencial e em baixo as outras informações que já tem lá nessa área de acordo com a apresentação.

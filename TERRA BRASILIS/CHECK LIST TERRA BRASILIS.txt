@@ -1,0 +1,8 @@
+-- CHECK LIST TERRA BRASILIS --
+
+- Slide mais largo
+- Tirar tarja cinza entre o slide e o "O Empreendimento"
+- enquadrar as imagens em flex (mais responsivo)
+- imagem da localização maior ficou pequeno
+- ter algo no fundo do empreendimento, imagens e localização ou cor difernte entre eles
+- diminuir tudo no rodape (contatos)

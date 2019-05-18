@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "TerraBrasilisHotSite"
+		},
+		{
+			"path": "TEMPLATE_LANDIN_RESPONSIVE_eatery-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TEMPLATE_LANDIN_RESPONSIVE_eatery-master"
+	}
+}

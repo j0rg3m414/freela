@@ -1,0 +1,293 @@
+* {
+    margin: 0 auto;
+	font-family: "Century Gothic", Arial;
+	font-weight: 400;
+    line-height: 26px;
+    border: 0;
+}
+ 
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  padding-top: .4em;
+  margin-bottom: .5em;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*css da logo no meio do slide*/
+#centro {
+  position: absolute;
+  width: 20%;
+  top:10%;
+  left:65%;
+  z-index: 20;
+}
+
+#localizacao{
+  height: auto;
+}
+
+#contato{
+  height: 500px;
+  overflow: hidden;
+}
+
+.example-image-link{
+  margin: 0px;
+  padding: 0px; 
+  text-decoration: none;
+}
+
+.example-image{
+  margin: 0px 0px;
+  padding: 0px; 
+  width: 250px;
+}
+
+
+.imgLocalizacao{
+  width: 800px;
+}
+
+.text_tooltip {
+  width: 120px;
+  text-decoration: none;
+  padding: 0px 5px;
+  position: absolute;
+  right: 60px;
+  height: 25px;
+  margin-top: 15px;
+  opacity: 0;
+  transition: all .2s;
+}
+
+.text_tooltip:after {
+	content: "";
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgb(90, 88, 88);
+    position: absolute;
+    right: -10px;
+    top: 0px;
+}
+
+.section_info {
+	padding: 60px 60px;
+}
+
+
+
+.imgLocalizacao{
+    width: 50%;
+}
+
+
+footer {
+    background-color:silver;
+    padding: 20px 0;
+    text-align: justify !important;
+    color: #494949;
+}
+
+.spanDirRodape{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.spanEsqRodape{
+    overflow: hidden;
+}
+
+.inputContato{
+    width: 400px;
+    background-color: silver;
+    border-bottom: 2px solid #494949;
+}
+
+.botaoEnviarRodape{
+    width: 100%;
+    text-align: left;
+}
+
+.botaoEnviarContato{
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+}
+
+.divInfoContato{
+    padding: 20px 0px;
+    height: 200px;
+    width: 100%;
+    font-size: 20pt;
+}
+
+.divInfoContato p{
+    text-align: left;
+}
+
+.iconeContato{
+    width: 30px;
+    height: 30px;
+}
+
+.imgRedeSociais{
+    width: 30px;
+    height: 30px;
+}
+
+.spanDirContato{
+    width: 80px;
+    height: 50px;
+    padding: 5px 0px 0px 0px;
+}
+
+.spanEsqContato{
+    padding: 0px 0px 0px 10px;
+}
+
+.spanEsqContato1{
+    padding: 0px 0px 0px 35px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+  @-webkit-viewport { width: device-width; }
+  @-moz-viewport { width: device-width; }
+  @-ms-viewport { width: device-width; }
+  @-o-viewport { width: device-width; }
+  @viewport { width: device-width; }
+  
+  .disable-pointer-events {
+    pointer-events: none !important;
+  }
+  
+    body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: normal 100%/1.4 sans-serif;
+    font-size: 1.125em;
+  }
+  
+  section {
+    text-align: center;
+    padding: 0 0;
+  }
+  
+  /* #topo{
+    height: 500px;
+    width: 100%; 
+  } */
+
+  .iframeSlide{
+    width:1920px;
+    height:600px;
+    max-width:100%;
+    overflow:hidden;
+    border:none;
+    padding:0;
+    margin:0 auto;
+    display:block;
+  }
+  
+  #oEmpreendimento{
+    height: auto;
+    width: 100%;
+  }
+  
+  #oEmpreendimento div{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    
+  }
+  
+  #imagens{
+    margin-bottom: 80px;
+    height: auto;
+    width: 100%;
+  }
+  
+  
+  /* ------------------------------------------
+    topo fixo
+  --------------------------------------------- */
+  
+  header {
+    height: 50px;
+    background-color: black;
+    /* padding-top: 20px; */
+    /* width: 100%; */
+    color: #fff;
+    text-align: right;
+    position: fixed;
+    font-size: 0.7em;
+    transition: all .3s;
+    z-index: 50;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+
+  /* .header_fixed {
+	font-size: 0.5em;
+    height: 50px;
+    opacity: 8;
+    filter: alpha(opacity=80);
+} */
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 10%;
+  width: 20em;
+  margin-top: -2.5em;
+  background:black;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0px 0px;
+
+}
+
+/* header nav{
+  opacity: 10;
+    filter: alpha(opacity=100);
+  -webkit-transition: width 2s; 
+    transition: width 2s;
+} */
+
+header nav ul li{
+    display: inline;
+    background-color: black;
+    padding: 5px 50px 5px 0;
+}
+
+header nav ul li a{
+    color: white;
+    font-size: 1.8em;
+    text-decoration: none;
+    padding: 0 8px 0;
+    background-color: black;
+}

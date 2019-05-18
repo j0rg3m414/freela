@@ -1,0 +1,69 @@
+@media only screen and (min-width: 768px) and (max-width: 1169px){
+ 
+    .linkWhats{
+      position: absolute;
+      top: 30%;
+      font-size: 3em;
+      color: white;
+    }
+
+  .centroScroll{
+      position: absolute;
+      width: 3em;
+      top:17px;
+      left:6%;
+      z-index: 20;
+    }
+
+  .centro2{
+      position: absolute;
+      width: 18em;
+      top:15%;
+      left:65%;
+      z-index: 20;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .custom-navbar .section-btn {
+      margin-left: 1em;
+    }
+
+    .slider .item {
+      background-position: center;
+    }
+
+    .about-info {
+      padding: 0;
+    }
+
+    .team-info {
+      margin-bottom: 50px;
+    }
+
+    #menu .menu-thumb {
+      width: 103%;
+    }
+
+    #testimonial {
+      background-position: 50% 0 !important;
+    }
+
+    #google-map,
+    .footer-info {
+      margin-bottom: 50px;
+    }
+
+    .custom-navbar .nav li a {
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+
+    .fa .fa-phone{
+      padding-right: 0px;
+      padding-left: 0px;
+      font-size: 0.1em;
+    } 
+  }
